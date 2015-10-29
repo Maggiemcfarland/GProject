@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title></title>
+	<meta>
+	<style>
+	body{
+		width: 100%;
+		font-size: 16pt;
+		background-image: url("red.jpg");
+		background-size: cover;
+	}
+	header{
+		text-align: center;
+		background-color: #286140;
+		color: white;
+		height: 20%;
+		position: fixed;
+		top: 0px;
+		left: 0px;
+		width: 100%;
+		vertical-align: bottom;
+		padding-top: 30px;
+	}
+	#logo{
+		position: fixed;
+		width: 20%;
+		height:20%;
+		top: 0px;
+		left: 0px;
+	}
+	header p{
+		float:right;
+	}
+	header ul{
+		margin: auto;
+	}
+	header li{
+		display: inline;
+		list-style-type: none;
+		text-align: center;
+		margin: 20px;
+		vertical-align: text-bottom;
+	}
+	#content{
+		background-image: url("");
+		background-size: cover;
+		height: 1000px;
+	}
+	#slideshow{
+		margin-left: auto;
+		margin-right: auto;
+		margin-top: 25%;
+		width:80%;
+		background-color: lightgrey;
+		height: 40%;
+	}
+	#galleryLinks{
+		width: 80%;
+		height: 50%;
+		margin-top: 50px;
+		margin-left: auto;
+		margin-right: auto;
+		display: flex;
+		flex-direction:row;
+		align-items:space-between;
+	}
+	#kitchens{
+		width: 25%;
+		height: 40%;	
+		background-color:lightgrey;
+		display: inline-block;
+		order: 1;
+		margin: auto;
+	}
+	#exteriors{
+		width: 25%;
+		height: 40%;
+		background-color:lightgrey;
+		display: inline-block;
+		order:2;
+		margin: auto;
+	}
+	#fullbuild{
+		width: 25%;
+		height: 40%;
+		background-color:lightgrey;
+		display: inline-block;
+		order:3;
+		margin: auto;
+	}
+	footer{
+		position: fixed;
+		bottom: 0px;
+		left:0px;
+		width:100%;
+		height:20px;
+		background-color: white;
+		color:black;
+	}
+	footer ul{
+		margin: auto;
+		color: black;
+	}
+	footer li{
+		display: inline;
+		list-style-type: none;
+		float: right;
+		margin: 20px;
+		vertical-align: text-bottom;
+		color:black;
+	}
+	#greenbuild {
+		
+		
+		top: 35%;
+		bottom: 40%;
+		position: fixed;
+		left: 10%;
+		right: 10%
+		
+		
+	}
+	#greenbuildtable {
+		background-color: lightgray;
+		padding: 10;
+	}
+	
+	
+	#greenheader1 {
+		text-align: center;
+	
+	}
+	
+	</style>
+</head>
+
+<body>
+	<header>
+	<a href="Group_Project.html"><img id="logo" src="#"></a>
+		<ul>
+			<a href="gallery.html"><li>Gallery</li></a>
+			<a href="about.html"></a><li>About</li></a>
+			<a href="greenbuilder.html"><li>Green Builder</li></a>
+		</ul>
+		<p>Phone Number</p>
+	</header>
+
+
+
+
+
+
+
+
+
+<!--
+*************************************
+Start Section on Green Building 
+*************************************
+-->
+
+
+<div id="greenbuild">
+
+	<table id="greenbuildtable" cellpadding="15">
+		
+		<h3 id="greenheader1"><i> 
+			Timanson Builders believes in green building by using products, technologies and practices that result in 
+			homes that are better built and better for the environment. 
+		</i><h3> 
+		
+		
+		<tr>
+			<th><u>Nudura Certified</u></th>
+			<th><u>Member of the Green Builders Guild</u></th>
+			<th><u>Net Zero Home Builder</u></th>
+			<th><u>Passive Solar Design Capabilities</u></th>
+		</tr>
+		
+		<tr>
+			<td>
+			Click <a target="_blank" href="http://www.nudura.com"><i>here</i></a> for more 
+			information on Nudura.
+			</td>
+		
+			<td>
+			Click <a target="_blank" href="http://www.coloradogreenbuildingguild.org"><i>here</i></a> for 
+			more information on the Green Building Guild.
+			</td>
+
+			<td>
+			Click <a target="_blank" href="http://www.living-future.org/netzero"><i>here</i></a> for 
+			more information on Net Zero Building.
+			</td>
+			
+			<td>
+			Click <a target="_blank" href="http://www.energy.gov/energysaver/passive-solar-home-design"><i>here</i></a> 
+			for more information on Solar design capabilities.
+			</td>
+		
+		</tr>
+	</table>
+</div>
+
+
+<!--
+*************************************
+End Section on Green Building 
+*************************************
+-->
+
+
+
+
+
+
+
+
+
+
+
+
+	<footer>
+		<p>contact info</p>
+		
+
+	</footer>
+</div>	
+
+
+</body>
+
+</html>
